@@ -25,11 +25,6 @@ public class Case3 {
             System.out.println("There is no 0 in number");
         }
 
-        int x = num;
-
-        if((x&1)>0) {x ^= 1; }
-        System.out.println(x);
-
     }
 
 }
